@@ -1,0 +1,106 @@
+
+:root{
+    --titleColo:hsl(332, 51%, 32%);
+    --nutmeg:hsl(14, 45%, 36%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --youngserif: Young Serif;
+}
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-width: 1440px;
+    background-color: hsl(30, 54%, 90%);
+    padding-top: 130px;
+}
+
+.card{
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+   display: flex;
+   border-radius: 20px;
+   flex-flow: column     wrap;
+  align-items: center;
+}
+
+.card img{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+.title{
+    color: var(--DarkCharcoal);
+    font-family: Young Serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.description{
+    width: 90%;
+    min-height: 150px;
+    margin-top: 30px;
+}
+.description_text{
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 500;
+color: var(--WengeBrown);
+}
+.prepTime{
+    width: 90%;
+    height: 170px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: hsl(322.5deg 100% 98.43%);
+}
+.prepTime_text{
+    color: var(--titleColo);
+    font-family: Outfit;
+
+}
+.prepTime_item{
+    font-family: Outfit;
+    color: var(--WengeBrown);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.ingridients{
+    width: 90%;
+    border: 1px solid red;
+    margin-top: 30px;
+    
+   padding-left: 25px;
+}
+.ingridients_title{
+    font-family: var(--youngserif);
+    color: var(--nutmeg);
+    font-size: 20px;
+    font-weight: 400;
+}
+.instruccions{
+    width: 90%;
+    border: 1px solid red;
+}
+
+.nutrition{
+    width: 90%;
+    
+    border: 1px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+hr{
+    width: 90%;
+    border: 1px ridge black;
+}
