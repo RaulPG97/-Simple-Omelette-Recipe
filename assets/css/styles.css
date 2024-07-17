@@ -17,6 +17,7 @@
     min-width: 1440px;
     background-color: hsl(30, 54%, 90%);
     padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .card{
@@ -33,6 +34,7 @@
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
+    
     border-radius: 20px;
 
 }
@@ -75,7 +77,13 @@ color: var(--WengeBrown);
     margin-top: 10px;
 
 }
-
+ul li::marker{
+    color: var(--nutmeg);
+}
+ol li::marker{
+    color: var(--nutmeg);
+    font-weight: bold;
+}
 .ingridients{
     width: 90%;
     margin-top: 30px;
@@ -87,6 +95,7 @@ color: var(--WengeBrown);
     font-size: 26px;
     font-weight: 400;
 }
+
 .ingridients_item{
     font-family: Outfit;
     color: var(--WengeBrown);
@@ -96,20 +105,78 @@ color: var(--WengeBrown);
 }
 .instruccions{
     width: 90%;
-    border: 1px solid red;
     margin-top: 20px;
     padding-left: 25px;
 }
+.intruccions_title{
+    font-family: var(--youngserif);
+    color: var(--nutmeg);
+    font-size: 26px;
+    font-weight: 400;
+}
+.instruccions_lis{
+   color: var(--nutmeg);
+    padding-left: 0;
+}
+.instruccions_item{
+    font-family: Outfit;
+    color: var(--WengeBrown);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
 
+    padding-left: 25px;
+    text-indent: -25;
+}
 .nutrition{
     width: 90%;
     
-    border: 1px solid red;
-   margin-top: 20px;
+   /* border: 1px solid red;*/
+   margin-top: 30px;
     margin-bottom: 30px;
+}
+.nutrition_title{
+    font-family: var(--youngserif);
+    color: var(--nutmeg);
+    font-size: 26px;
+    font-weight: 400;
+}
+.nutrition_text{
+    font-family: Outfit;
+    color: var(--WengeBrown);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+table{
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+td {
+    font-family: Outfit;
+    color: var(--WengeBrown);
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 8px;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.163);
+}
+td strong{
+    color: var(--nutmeg);
+}
+
+tr:first-child td {
+    border-top: none;
 }
 hr{
     width: 90%;
     border: 0.1px solid rgba(0, 0, 0, 0.163);
     margin-top: 20px;
+}
+.attribution{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
 }
